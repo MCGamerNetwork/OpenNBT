@@ -39,25 +39,21 @@
 
     <distributionManagement>
         <repository>
-            <id>spacehq</id>
-            <name>spacehq-releases</name>
-            <url>https://repo.spacehq.org/content/repositories/releases/</url>
+            <id>mcgamer-deployment</id>
+            <name>MCGamer Public Releases</name>
+            <url>http://repo.mcgamer.net/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>spacehq</id>
-            <name>spacehq-snapshots</name>
-            <url>https://repo.spacehq.org/content/repositories/snapshots/</url>
+            <id>mcgamer-deployment</id>
+            <name>MCGamer Public Snapshots</name>
+            <url>http://repo.mcgamer.net/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
-            <id>spacehq-releases</id>
-            <url>https://repo.spacehq.org/content/repositories/releases/</url>
-        </repository>
-        <repository>
-            <id>spacehq-snapshots</id>
-            <url>https://repo.spacehq.org/content/repositories/snapshots/</url>
+            <id>mcgamer</id>
+            <url>http://repo.mcgamer.net/content/groups/public</url>
         </repository>
     </repositories>
 
